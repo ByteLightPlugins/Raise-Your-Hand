@@ -1,0 +1,12 @@
+h1 { margin: 0; }
+input { padding: 0 10px; }
+#submit { position: absolute; margin-top: -40px; right: 8px; width: 100px; }
+.up, .down, .answered { width: 40px;float: right; margin-left: 5px; }
+.question { position: relative; }
+.up { -webkit-transform: rotate(-90deg); }
+.down { -webkit-transform: rotate(90deg); }
+.score { float: left; font-size: 24px; display: inline-block; width: 40px; color: #ccc; }
+.answered { background-color: green; }
+.inactive h2, .inactive .score { text-decoration: line-through; color: #ccc; }
+
+.inactive button { display: none; }
